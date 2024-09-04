@@ -126,7 +126,7 @@ def index():
             'Twitch': int(request.form.get('Twitch', 0)),  # New case added here
         }
         
-        # Increment the counter after form submission
+        # Increment the counter after form submission test123
         update_counter()
         
         grid, placed_blocks = greedy_solver(cases)
